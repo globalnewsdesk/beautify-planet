@@ -411,7 +411,7 @@
       <p style="color:#6b5b5f;margin-top:10px;max-width:42ch;">Have a question about a product, your order, or want something not listed yet? Reach out — we're active daily.</p>
       <div style="margin-top:22px;display:flex;gap:12px;flex-wrap:wrap;">
         <a class="btn btn-gold" href="https://wa.me/923155600409" target="_blank" rel="noopener">Chat on WhatsApp</a>
-        <a class="btn btn-outline" href="mailto:hello@beautifyplanet.pk">Email Us</a>
+        <a class="btn btn-outline" href="mailto:beautifyplanet@gmail.com">Email Us</a>
       </div>
     </div>
     <div class="social-cards">
@@ -1169,7 +1169,7 @@ document.getElementById('orderForm').addEventListener('submit', (e)=>{
     msg.textContent = "Couldn't send automatically — opening your email app instead...";
     const subject = encodeURIComponent(`New Order from ${name} — Beautify Planet`);
     const body = encodeURIComponent(bodyLines);
-    window.location.href = `mailto:muteeullah49476@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:beautifyplanet@gmail.com?subject=${subject}&body=${body}`;
     if(submitBtn){ submitBtn.disabled = false; submitBtn.textContent = 'Place Order'; }
   });
 });
